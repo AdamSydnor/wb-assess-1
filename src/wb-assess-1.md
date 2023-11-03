@@ -13,7 +13,7 @@
 
 Which statement is true about JavaScript?
 
-- [ ] **A.** JavaScript is case insensitive, so `true` is the same as `True`.
+- [x] **A.** JavaScript is case insensitive, so `true` is the same as `True`.
 - [ ] **B.** JavaScript ignores whitespace characters like spaces and newline characters.
 - [ ] **C.** JavaScript requires you to end all statements with a semicolon (`;`).
 - [ ] **D.** All of the above are true.
@@ -33,7 +33,7 @@ answer.
 - [ ] **A.** `sum++`
 - [ ] **B.** `sum += 1`
 - [ ] **C.** `sum = sum + 1`
-- [ ] **D.** All of the above
+- [x] **D.** All of the above
 - [ ] **E.** Some of the above
 
 ### A.3. What's the output?
@@ -45,7 +45,7 @@ const result = 1 < 100 || 'hello' === 'hi';
 console.log(result);
 ```
 
-- [ ] **A.** `true`
+- [x] **A.** `true`
 - [ ] **B.** `false`
 - [ ] **C.** `undefined`
 - [ ] **D.** N/A because the code has an error
@@ -64,7 +64,7 @@ if (word) {
 ```
 
 - [ ] **A.** `yay!`
-- [ ] **B.** `no :(`
+- [x] **B.** `no :(`
 - [ ] **C.** An empty line
 - [ ] **D.** N/A because the code has an error
 
@@ -88,7 +88,7 @@ cherry
 ```
 
 - [ ] **A.** `const fruit in fruits`
-- [ ] **B.** `const fruit of fruits`
+- [x] **B.** `const fruit of fruits`
 - [ ] **C.** `let fruit = 0; fruit < fruits.length; fruit++`
 - [ ] **D.** None of the above
 
@@ -104,7 +104,7 @@ function makeWordArray(phrase) {
 ```
 
 - [ ] **A.** Nothing happens because the program errors out.
-- [ ] **B.** It defines a function called `makeWordArray` and converts `phrase` into an array of words.
+- [x] **B.** It defines a function called `makeWordArray` and converts `phrase` into an array of words.
 - [ ] **C.** It defines a function called `makeWordArray` and outputs a word array.
 - [ ] **D.** It defines a function called `makeWordArray` but nothing else happens.
 
@@ -118,7 +118,7 @@ console.log'hi';
 // hi
 ```
 
-- [ ] **A.** The code causes an error because there should be parentheses around `'hi'`.
+- [x] **A.** The code causes an error because there should be parentheses around `'hi'`.
 - [ ] **B.** The code causes an error because `console.log` isn't a function.
 - [ ] **C.** The code causes an error because the code will run but it won't output anything.
 - [ ] **D.** There is no error; the code generates the expected output.
@@ -139,7 +139,7 @@ console.log(fruits[fruits.indexOf('apple')]);
 - [ ] **B.** The code causes an error because `fruits.indexOf('apple')` doesn't return a valid
   index number.
 - [ ] **C.** The code causes an error because it outputs `0` instead of the expected output.
-- [ ] **D.** There is no error; the code generates the expected output.
+- [x] **D.** There is no error; the code generates the expected output.
 
 ### A.9. Identify the error
 
@@ -157,7 +157,7 @@ for (const w of words) {
 ```
 
 - [ ] **A.** The code causes an error because `w` needs to be a `let` variable.
-- [ ] **B.** The code causes an error because `words` is an array and `toUpperCase()` isn't a
+- [x] **B.** The code causes an error because `words` is an array and `toUpperCase()` isn't a
   valid array function.
 - [ ] **C.** The code causes an error because it will output `['JS', 'HTML', 'CSS']` three times.
 - [ ] **D.** There is no error; the code generates the expected output.
@@ -178,7 +178,7 @@ console.log(numStrings);
 ```
 
 - [ ] **A.** The code causes an error because `numStrings` needs to be a `let` variable.
-- [ ] **B.** The code causes an error because `i <= nums.length` should be `i < nums.length`
+- [x] **B.** The code causes an error because `i <= nums.length` should be `i < nums.length`
 - [ ] **C.** The code causes an error because `i++` isn't valid JavaScript syntax.
 - [ ] **D.** There is no error; the code generates the expected output.
 
@@ -210,7 +210,7 @@ outputArgs('hi', 'bye');
   of the expected output.
 - [ ] **C.** The code causes an error because the `a`, `b`, and `c` variables haven't been
   initialized.
-- [ ] **D.** There is no error; the code generates the expected output.
+- [x] **D.** There is no error; the code generates the expected output.
 
 ## B. Free response
 
@@ -225,13 +225,16 @@ Functions can be used to create named blocks of code that can be executed/reused
 **_What is the difference between `console.log` and `return`?_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+A console.log() is an in-built javascript function that logs what is placed between the brackets to the terminal. Best use for console.log is for bug fixing, so it should be used prodigiously.
+On the other hand, a return element can be used to return data from a function. It, however, can only be used once per function call.
+You can use the two in conjuntion to log the returned data from a function.
 ```
 
 **_What's the difference between defining and calling a function?_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+You define a function with the function keyword (or => for an arrow function), along with a name like myFunction, and then connecting that name to parentheses. You can then insert perameters into the parentheses that can be defined later with a function call.
+You can call that function by using it's name, myFunction, and similarly connecting parentheses to your function call, which you can then optionally place arguments into.
 ```
 
 ### B.2. Describe these data types.
@@ -241,25 +244,26 @@ Write a short description of the following data types:
 **_String_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+Strings are a are a series of text contained within single quotes, double quotes, or backtick (also apparently called a grave accent.) They can even call variables into them if you use a template literal.
+Also I had no idea that this works, but I tried it and apparently it does
 ```
 
 **_Number_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+A number is, well, a number. They can be integers, floats, and doubles. and integer is a whole number, a float is a number with a decimal, and a double is similar to a float, but can store for information. One might even say double the information.
 ```
 
 **_Boolean_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+Boolean is a binary value of true or false. When referencing other data types a true value is found when there is presence, and false when there is absence (Number: 1 or -1 is true, 0 is false. String: 'this' is true, '' is false)
 ```
 
 **_Array_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+Arrays are a data type that can be held in a variable which are capable of storing multiple data types in them. These items can be any combination of data types. An array is defined using square brackets [], and placing commas between each item (which I have been forgetting!)
 ```
 
 ### B.3. Trace the value of `x`
@@ -282,7 +286,7 @@ completed for you.
 
 ```
 Initial values: y = 0, x = 5
-1:              y = 1, x = ??
-2:              y = 2, x = ??
-3:              y = 3, x = ??
+1:              y = 1, x = 10
+2:              y = 2, x = 15
+3:              y = 3, x = 20
 ```
