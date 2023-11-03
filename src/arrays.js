@@ -20,12 +20,10 @@ function bWords(words) {
 //  extend([1, 2, 3], [4, 5, 6]);
 //  => [1, 2, 3, 4, 5, 6]
 function extend(originalArray, additionalItems) {
-  function extend(originalArray, additionalItems) {
-    for (const num of additionalItems) {
-        originalArray.push(num)
-    }
-    return originalArray
-}
+  for (const num of additionalItems) {
+      originalArray.push(num)
+  }
+  return originalArray
 }
 
 // Return an array of all items with the given length.
