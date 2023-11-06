@@ -244,8 +244,7 @@ Write a short description of the following data types:
 **_String_**
 
 ```
-Strings are a are a series of text contained within single quotes, double quotes, or backtick (also apparently called a grave accent.) They can even call variables into them if you use a template literal.
-Also I had no idea that this works, but I tried it and apparently it does
+Strings are a are a series of text contained within single quotes, double quotes, or backticks (also apparently called a grave accent.) They can even call variables into them if you use a template literal.
 ```
 
 **_Number_**
@@ -263,7 +262,7 @@ Boolean is a binary value of true or false. When referencing other data types a 
 **_Array_**
 
 ```
-Arrays are a data type that can be held in a variable which are capable of storing multiple data types in them. These items can be any combination of data types. An array is defined using square brackets [], and placing commas between each item (which I have been forgetting!)
+Arrays are a data type that can be held in a variable which are capable of storing multiple data types within them. These items can be any combination of data types, incuding other arrays. An array is defined using square brackets [], and placing commas between each item (which I have been forgetting!)
 ```
 
 ### B.3. Trace the value of `x`
